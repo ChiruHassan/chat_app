@@ -1,0 +1,83 @@
+/* style.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .join-container {
+    width: 100%;
+    max-width: 500px;
+    background: #fff;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .join-header {
+    background: #333;
+    color: #fff;
+    padding: 15px 20px;
+    border-radius: 5px 5px 0 0;
+  }
+  
+  .join-header h1 {
+    margin: 0;
+  }
+  
+  .join-main {
+    padding: 20px;
+  }
+  
+  .join-main form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-control {
+    margin-bottom: 15px;
+    text-align: left;
+  }
+  
+  .form-control label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .form-control input,
+  .form-control select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: border-color 0.3s;
+  }
+  
+  .form-control input:focus,
+  .form-control select:focus {
+    border-color: #333;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    background: #ff4d4d;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .btn:hover {
+    background: #ff1a1a;
+  }
+  
